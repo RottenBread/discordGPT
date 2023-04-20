@@ -17,6 +17,6 @@ async def 지피티(ctx, *, msg):
         messages=messages
     )
     chat_response = completion.choices[0].message.content
-    await ctx.send(f'ChatGPT : {chat_response}')
+    await ctx.send(f'ChatGPT : {chat_response}', reference=ctx.message)
 
 bot.run('-')

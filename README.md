@@ -1,2 +1,2 @@
 # discordGPT
-use ChatGPT in discord bots
+use ChatGPT on discord
